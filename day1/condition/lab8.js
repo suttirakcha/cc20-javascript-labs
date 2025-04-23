@@ -1,4 +1,5 @@
 // LAB-8 : SortNumber
+// Sort the number from the highest to the lowest number
 
 const a = parseInt(prompt("Enter the first number"));
 const b = parseInt(prompt("Enter the second number"));

@@ -1,4 +1,5 @@
 // LAB - 6 : Fundamental
+// Sum the two numbers together
 
 const num1 = prompt("Enter the first number");
 const num2 = prompt("Enter the second number");

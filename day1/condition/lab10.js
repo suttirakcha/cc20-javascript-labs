@@ -1,4 +1,5 @@
 // LAB-10 : Mini-workshop
+// Login feature part 2
 
 var user = prompt("Username");
 if (user === "codecamp") {

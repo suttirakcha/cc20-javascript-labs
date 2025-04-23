@@ -1,4 +1,5 @@
 // LAB - 4 : Fundamental
+// Check if the number is valid
 
 const myNum = prompt("Enter the number");
 const enteredNum = Number(myNum);

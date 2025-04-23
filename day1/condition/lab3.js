@@ -1,4 +1,4 @@
-// LAB-3 : Fundamental
+// LAB-3 : Guess my name
 
 const myName = prompt("Guess my name");
 if (myName === "Mark"){

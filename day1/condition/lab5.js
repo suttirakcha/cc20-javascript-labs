@@ -1,3 +1,6 @@
+// LAB - 5 : Fundamental
+// Check if the number is even or odd
+
 const numCheck = +prompt("Enter the number");
 if (numCheck){
   if (isNaN(numCheck) || numCheck.trim() === '' || numCheck === null){

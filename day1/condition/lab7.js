@@ -1,4 +1,5 @@
 // LAB-7 : Fundamental
+// Check the grade
 
 let score = +prompt("Enter the score");
 if (score > 100) {

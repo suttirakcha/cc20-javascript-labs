@@ -1,4 +1,5 @@
 // LAB-9 : Mini workShop
+// Login feature
 
 const username = prompt("Enter username");
 if (username && username.trim()) {
