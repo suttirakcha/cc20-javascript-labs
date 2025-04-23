@@ -1,5 +1,8 @@
 // LAB 11-15 : Do While Loop
 
+let i = 1;
+let sum = 0; // For lab 12
+
 // LAB - 11 : Count 1 to 10
 do {
   console.log(i);

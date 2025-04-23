@@ -1,7 +1,7 @@
 // LAB 6-10 : While Loop
 
 let i = 1;
-let sum = 0;
+let sum = 0;  // For lab 7
 
 // LAB - 6 : Count 1 to 10
 while (i <= 10){
