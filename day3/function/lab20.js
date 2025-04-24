@@ -1,13 +1,24 @@
 // LAB - 20 : Find the prime number
 
 const isPrimeNumber = (num) => {
-  return num % 2 !== 0 && num % 3 !== 0;
+  if (num < 2) return false;
+
+  let isPrime = true;
+
+  for (let i = 2; i < num; i++){
+    if (num % i === 0){
+      isPrime = false;
+      break;
+    }
+  }
+
+  return isPrime
 }
 
-let result1 = isPrimeNumber(0);
-let result2 = isPrimeNumber(3);
-let result3 = isPrimeNumber(15);
-let result4 = isPrimeNumber(49);
-let result5 = isPrimeNumber(83);
+const checkPrimeNumber = (num) => {
+  for (let i = 0; i < num; i++){
+    if (isPrimeNumber(i)) console.log(i);
+  }
+}
 
-console.log(result1, result2, result3, result4, result5);
+checkPrimeNumber(25)

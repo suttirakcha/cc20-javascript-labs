@@ -1,12 +1,13 @@
 // LAB - 19 : Return one of four numbers that has the highest value
 
-const getTheHighestValue = (num1, num2, num3, num4) => {
-  const isNum1Max = num1 > num2 && num1 > num3 && num1 > num4;
-  const isNum2Max = num2 > num1 && num2 > num3 && num2 > num4;
-  const isNum3Max = num3 > num1 && num3 > num2 & num3 > num4;
-  const isNum4Max = num4 > num1 && num4 > num2 && num4 > num3;
+function maxOfTwo(a, b){
+  return a > b ? a : b;
+}
 
-  return isNum1Max ? num1 : isNum2Max ? num2 : isNum3Max ? num3 : isNum4Max ? num4 : 'Invalid'
+const getTheHighestValue = (num1, num2, num3, num4) => {
+  const max1 = maxOfTwo(num1, num2);
+  const max2 = maxOfTwo(num3, num4);
+  return max1 > max2 ? max1 : max2;
 }
 
 let result1 = getTheHighestValue(4, 3, 2, 1);

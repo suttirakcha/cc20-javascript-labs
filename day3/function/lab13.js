@@ -19,8 +19,9 @@ const grade = (score) => {
 }
 
 const main = () => {
-  const result = grade(getScore());
-  alert(result);
+  const score = getScore();
+  const result = grade(score);
+  alert(`Your grade : ${result}`);
 }
 
 main();
