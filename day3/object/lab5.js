@@ -12,5 +12,9 @@ const product1 = {
 };
 const product2 = {}
 
-console.log(product1.distributor.address.province);
-console.log(product2?.distributor?.address?.province ?? 'No province');
+function logProvince(product){
+  console.log(product?.distributor?.address?.province ?? "No province data");
+}
+
+logProvince(product1);
+logProvince(product2);

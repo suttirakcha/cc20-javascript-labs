@@ -1,6 +1,6 @@
-const username = "Mark";
-const email = "mark@mail.com";
-const password = "1234";
+const username = prompt("Enter your username");
+const email = prompt("Enter your email");
+const password = prompt("Enter your password");
 
 const user = {
   username,
